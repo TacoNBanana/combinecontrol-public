@@ -1,0 +1,100 @@
+-- Web integration
+GM.MOTDURL			= ""
+GM.SteamGroupURL	= ""
+GM.WebsiteURL		= ""
+
+GM.Developers = {}
+
+-- Security
+GM.PrivateMode = true
+
+GM.PrivateSteamIDs = {}
+
+GM.TestingClosedMessage = "This server is closed for testing. You are not whitelisted."
+
+-- Client Downloads
+GM.WorkshopAddons = { --only addons with custom models and textures need to go here! this is for the client
+}
+
+GM.WorkshopMaps = {}
+
+--FastDL
+GM.FastDLFolders = {
+}
+
+GM.FastDLFiles = {
+}
+
+-- Character Creation
+GM.QuizEnabled				= true
+GM.QuizBanTime				= 15
+GM.IntroCinematicEnabled	= false
+
+GM.IntroCamText = {}
+
+GM.MinNameLength	= 3
+GM.MaxNameLength	= 40
+GM.MaxDescLength	= 2000
+GM.MaxCharacters	= 15
+
+GM.WeaponRecoilMul 		= Angle(0.5, 1, 0)
+GM.PlayerSight 			= 1024
+GM.ConsciousnessRate 	= 0.7
+
+GM.MinStats 			= 1
+GM.MaxAllocatedStats 	= 7
+GM.MaxStats 			= 10
+
+GM.StatsAvailable		= 10
+
+GM.CitizenModels = {
+	["models/tekka/male_01.mdl"] = 1
+}
+
+-- General Gameplay
+GM.UseHunger				= true
+GM.FistsHaveEffectOnPlayers	= true
+GM.DoorRammingEnabled		= true
+GM.UntieOnDeath				= true
+
+GM.CraftRange 				= 96
+
+GM.MaxLoan					= 500
+
+GM.MaxItemDescLength 		= 300
+
+-- AFK Autokicker
+GM.AFKKickerEnabled			= true
+GM.AFKPercentage			= 0.90
+GM.AFKTime					= 600
+
+-- Cross-Server Transfers
+IP_GENERAL					= ""
+PORT_CITY					= 27015
+PORT_CANAL					= 27016
+PORT_OUTLANDS				= 27018
+PORT_COAST					= 27017
+PORT_NEXUS					= 27019
+
+GM.DataFolders = {
+	[LOCATION_CITY]		= "city",
+	[LOCATION_CANAL]	= "canals",
+	[LOCATION_OUTLANDS]	= "outlands",
+	[LOCATION_COAST]	= "coast",
+	[LOCATION_NEXUS]	= "nexus"
+}
+
+TRANSITPORT_CITY_GATE		= 2
+TRANSITPORT_CITY_SEWER		= 3
+TRANSITPORT_CITY_COMBINE	= 4
+TRANSITPORT_CAVES_ENTRY		= 5
+TRANSITPORT_COAST_ENTRY		= 6
+
+-- Donations
+GM.BronzeDonorAmount		= 5
+GM.SilverDonorAmount		= 30
+GM.GoldDonorAmount			= 100
+
+-- Admin stuff
+GM.DefaultLogLines 			= 200
+GM.MaxLogLines 				= 500

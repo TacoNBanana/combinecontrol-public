@@ -1,0 +1,7 @@
+"Tekka"
+{
+	"base"		"sandbox"
+	"title"		"TacoControl"
+	"maps"		"^rp_"
+	"menusystem"	"1"
+}

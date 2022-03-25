@@ -1,0 +1,8 @@
+hook.Remove("SetupWorldFog", "SW.SetupWorldFog")
+hook.Remove("SetupSkyboxFog", "SW.SetupSkyboxFog")
+hook.Remove("Think", "SW.Think")
+hook.Remove("HUDPaint", "SW.HUDPaint")
+hook.Remove("RenderScreenspaceEffects", "SW.RenderScreenspaceEffects")
+hook.Remove("InitPostEntity", "SW.InitPostEntity")
+hook.Remove("PlayerInitialSpawn", "SW.PlayerInitialSpawn")
+hook.Remove("Initialize", "SW.Initialize")
