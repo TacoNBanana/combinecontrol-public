@@ -1,0 +1,31 @@
+GM.MySQLType 	= "mysqloo"
+
+GM.MySQLHost 	= "localhost"
+GM.MySQLPort 	= 3306
+GM.MySQLDB 		= "trp"
+
+GM.MySQLUser 	= "root"
+GM.MySQLPass 	= ""
+
+GM.MySQLAliases = {
+	chars 			= "cc_chars",
+	players 		= "cc_players",
+	bans 			= "cc_bans",
+	notes 			= "cc_notes",
+	items 			= "cc_items",
+	worldents 		= "cc_worldents",
+	logs 			= "cc_logs",
+	logcharacters 	= "cc_logs_characters",
+	logitems 		= "cc_logs_items",
+	logplayers 		= "cc_logs_players"
+}
+
+GM.EnablePrometheus 	= false
+GM.PrometheusServerID 	= 3
+
+GM.PrometheusSQLHost 	= "localhost"
+GM.PrometheusSQLPort 	= 3306
+GM.PrometheusSQLDB 		= "donate"
+
+GM.PrometheusSQLUser 	= "root"
+GM.PrometheusSQLPass 	= ""
