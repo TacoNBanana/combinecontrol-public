@@ -1,0 +1,6 @@
+gamemode/config/*_config.lua
+content/*
+.buildpath
+.project
+.settings/org.eclipse.ldt.prefs
+CombineControl.txt

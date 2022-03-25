@@ -1,0 +1,7 @@
+// Extracted with MulleDK19's GMAD Extractor
+"AddonInfo"
+{
+	"name" "rp_cscdesert_v2-1"
+	"author_name" "Unknown"
+	"info" "Credits go to CaptSuperCow for map construction, testing and design; Tiki for input, main testing and design consideration; the Fallout team for their wonderful work and vat of ideas; and every-one else who gave input on the forums and for testing. Thank You. Last updated 1-16-2007   "
+}
