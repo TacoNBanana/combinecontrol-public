@@ -8,4 +8,4 @@ For more information including a brief setup guide and FAQ, check out the [wiki]
 
 ---
 
-TRP2 is the name used to describe our Terminator Roleplay server and script that was active in the period of 2018-2020, the script was scavenged from Tekka (An original cyberpunk setting that was eventually abandoned) and reworked into what you see here.
+TRP 2 is the name used to describe our Terminator Roleplay server and script that was active in the period of 2018-2020, the script was scavenged from Tekka (An original cyberpunk setting that was eventually abandoned) and reworked into what you see here.
