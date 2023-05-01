@@ -472,8 +472,8 @@ function GM:DrawPlayerInfo()
 	draw.RoundedBox(0, 20, ScrH() - 102, w, 82, Color(30, 30, 30, 200))
 
 	draw.DrawTextShadow(LocalPlayer():VisibleRPName(), "CombineControl.LabelGiant", w + 20 - 4, ScrH() - 102 + 4, Color(200, 200, 200, 255), Color(0, 0, 0, 255), 2)
-	draw.DrawTextShadow(util.FormatCurrency(LocalPlayer():Money(), true), "CombineControl.LabelGiant", w + 20 - 4, ScrH() - 102 + 4 + 22 + 4, Color(200, 200, 200, 255), Color(0, 0, 0, 255), 2)
-	draw.DrawTextShadow("CID #" .. LocalPlayer():FormattedCID(), "CombineControl.LabelGiant", w + 20 - 4, ScrH() - 102 + 4 + 22 + 4 + 22 + 4, Color(200, 200, 200, 255), Color(0, 0, 0, 255), 2)
+	draw.DrawTextShadow(util.FormatCurrency(LocalPlayer():Money(), true), "CombineControl.LabelBig", w + 20 - 4, ScrH() - 102 + 4 + 22 + 4, Color(200, 200, 200, 255), Color(0, 0, 0, 255), 2)
+	-- draw.DrawTextShadow("CID #" .. LocalPlayer():FormattedCID(), "CombineControl.LabelGiant", w + 20 - 4, ScrH() - 102 + 4 + 22 + 4 + 22 + 4, Color(200, 200, 200, 255), Color(0, 0, 0, 255), 2)
 end
 
 function GM:DrawHealthBars()

@@ -1,7 +1,7 @@
 "Tekka"
 {
 	"base"		"sandbox"
-	"title"		"TnB TRP"
+	"title"		"TRP3"
 	"maps"		"^rp_"
 	"menusystem"	"1"
 }

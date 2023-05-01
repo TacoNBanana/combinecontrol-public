@@ -2,7 +2,7 @@
 
 DeriveGamemode("sandbox")
 
-GM.Name = "TnB Terminator RP"
+GM.Name = "Terminator RP"
 GM.Author = "Disseminate, Gangleider, Steve, Hoplite, Thor, TankNut, DaveBrown"
 GM.Website = "http://taconbanana.com"
 GM.Email = "gangleider@taconbanana.com"
@@ -25,7 +25,7 @@ end
 function GM:CreateTeams()
 	team.SetUp(TEAM_CITIZEN, "Humans", Color(0, 120, 0, 255), false)
 	team.SetUp(TEAM_REPROG, "Reprogrammed", Color(0, 191, 255, 255), false)
-	team.SetUp(TEAM_SKYNET, "Terminators", Color(222, 92, 0, 255), false)
+	team.SetUp(TEAM_SKYNET, "SkyNet Terminator", Color(222, 92, 0, 255), false)
 	team.SetUp(TEAM_GREY, "Skynet Sympathizers and Collaborators", Color(220, 0, 0, 255), false)
 --	team.SetUp(TEAM_POLICE, "San Angeles Police Department", Color(33, 106, 196, 255), false)
 --	team.SetUp(TEAM_GOVERNMENT, "Government", Color(33, 106, 196, 255), false)

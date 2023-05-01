@@ -659,7 +659,7 @@ function GM:CreateCharCreate()
 			sum = sum + stats[v] - GAMEMODE.MinStats
 		end
 
-		local r, err = GAMEMODE:CheckCharacterValidity(name, desc, model, skin, stats, math.Round(sum), trait)
+		local r, err = GAMEMODE:CheckCharacterValidity(name, desc, model, skin, math.Round(sum), trait)
 
 		if r then
 
